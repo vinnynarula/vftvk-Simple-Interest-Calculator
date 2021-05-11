@@ -4,12 +4,12 @@ function compute()
    var principal = document.getElementById("principal").value;
    if(principal==""){
        alert("enetr some value");
-       documnent.getElementById("principal").focus();
+       document.getElementById("principal").focus();
        
    }
    else if (principal<= 0) {
        alert("value is negative or less than 0");
-   documnent.getElementById("principal").focus();
+   document.getElementById("principal").focus();
    
        
    }    
