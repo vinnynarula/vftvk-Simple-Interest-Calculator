@@ -9,7 +9,7 @@ function compute()
       
    }
    else if (principal<= 0) {
-       alert("value is negative or less than 0");
+       alert("Enter positive value");
    document.getElementById("principal").focus();
           
    }    
